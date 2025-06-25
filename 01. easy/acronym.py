@@ -1,5 +1,5 @@
 def acronym(sentence: str) -> str:
-    sentences = list(sentence.split(" ")) # [Organização, das, Nações, Unidas]
+    sentences = sentence.split(" ") # [Organização, das, Nações, Unidas]
     acronym = ""
     for word in sentences:
         if word[0].isupper():
