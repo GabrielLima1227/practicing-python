@@ -1,6 +1,6 @@
 class Person:
     name = ""
-    def introduce(self):
+    def introduce(self) -> None:
         print(f"Hello, i'm {self.name}")
 
 my_person01 = Person()

@@ -1,5 +1,5 @@
 class Person:
-    def introduce(self):
+    def introduce(self) -> None:
         print("I'm a person!")
 
 my_person01 = Person()
