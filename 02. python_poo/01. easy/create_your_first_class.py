@@ -1,6 +1,6 @@
 class Person:
-    def apresentar(self):
+    def introduce(self):
         print("I'm a person!")
 
 my_person01 = Person()
-my_person01.apresentar()
+my_person01.introduce()
